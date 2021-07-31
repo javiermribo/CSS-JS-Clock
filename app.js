@@ -15,7 +15,7 @@ const setDate = () => {
   minHand.style.transform = `rotate(${minsDegrees}deg)`
   minHand.style.background = `rgb(74, 3, 139)`;
 
-  const hour = now.getMinutes();
+  const hour = now.getHours();
   const hourDegrees = ((hour / 12) * 360) + 90;
   hourHand.style.transform = `rotate(${hourDegrees}deg)`
   hourHand.style.background = 'rgb(0, 9, 37)'
